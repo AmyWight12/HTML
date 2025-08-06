@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> All module 2 concept layouts </title>
+    </head>
+
+    <body>
+        <!-- Headings -->
+         <h1>Heading 1</h1>
+         <h2>Heading 2</h2>
+         <h3>Heading 3</h3>
+         <h4>Heading 4</h4>
+         <h5>Heading 5</h5>
+         <h6>Heading 6</h6>
+
+        <!-- The <p> tag -->
+            <!-- Formatting text with inline tags --> <!-- strong, em, u, sup, sub, del, mark-->
+             <p> This is text is <stong>very important</stong>. </p>
+             <p> That sentence needs <em>emphasis</em> somewhere. </p>
+             <p> You must <u>underline</u> the correct answer.</p>
+             <p> She came 1<sup>st</sup> in the entire grade.</p>
+             <p>The chemical formula for water is H<sub>2</sub>O. </p>
+             <p>Sale Price: <del>R260</del> R120. </p>
+             <p> The deadline for the project is <mark>May 12th</mark>. </p>
+
+            <!-- Quotations --> <!-- semantic tags: q, blockquote, footer--> 
+              <p> Lewis Hamilton once said: <q>"It's hammer time"</q> </p>
+
+              <p> As Albert Einstein once said: </p> 
+              <blockquote><p> "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world. The true sign of intelligence is not knowledge but imagination." </p></blockquote> 
+              </p>
+
+              <blockquote>
+			  <p>The more that you read, the more things you will know. The more that you learn, the more places you'll go.</p>
+		      <footer>- Dr. Seuss</footer>
+			  </blockquote>
+
+            <!-- non semantic tags: cite tags and attributes-->  
+               <blockquote>
+			   <p>The more that you read, the more things you will know. The more that you learn, the more places you'll go.</p>
+			   <footer>- Dr. Seuss</footer> </blockquote>
+
+               <p>As Steve Jobs once said, <q cite="https://www.brainyquote.com/quotes/steve_jobs_416096">Innovation distinguishes between a leader and a follower.</q></p>
+
+            <!-- Line Breaks -->
+             <p> This is the first line. <br> This is the second line. </p>
+
+            <!-- Horizontal Rules--> 
+              <p>This is some text above the line. </p>
+              <hr>
+              <p> This is some text below the line. </p>
+
+
+        <!-- Computer Code & Preformatted Text-->
+            <!-- <code> tag : Displaying computer code using-->
+                <p> This is a code with some <code>compute</code> </p>
+
+            <!-- <pre> tag : Displaying preformatted text-->
+                <pre>Hello, World!
+			        What a sight to see,
+			        A vast and endless web,
+			        Connecting you and me.</pre>
+
+            <!-- The <kbd> and <samp> tags -->
+                <kbd>Ctrl + C</kbd>
+                <samp>Invalid username or password.<samp></samp>
+
+
+        <!-- HTML Lists -->
+            <!-- Unordered-->
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            
+            <!-- Ordered list-->
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            
+            <!-- Definition list-->
+                <dl>
+                    <dt>Term 1</dt>
+                    <dd>Definition 1</dd>
+                    <dt>Term 2</dt>
+                    <dd>Definition 2</dd>
+                    <dt>Term 3</dt>
+                    <dd>Definition 3</dd>
+                </dl>
+
+            <!-- Nested list -->
+                <ul>
+                    <li>First item</li>
+                    <li>Second item
+                        <ul>
+                            <li>Sub-item 1</li>
+                            <li>Sub-item 2</li>
+                        </ul>
+                    </li>
+                    <li>Third item</li>
+                </ul>
+
+        
+        <!-- Tables -->
+            <!-- Basic table-->
+            <table>
+                <tr>
+                    <td>Row 1, Column 1</td>
+                    <td>Row 1, Column 2</td>
+                </tr>
+                <tr>
+                    <td>Row 2, Column 1</td>
+                    <td>Row 2, Column 2</td>
+                </tr>
+            </table>
+
+            <!-- Table with headers-->
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Web design</td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td>Graphic design</td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>Content writing</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <td>Social media management</td>
+                    <td>$150</td>
+                </tr>
+            </table>
+
+            <!-- Table with merged cells -->
+            <table>
+                <tr>
+                    <th rowspan="2">Product</th>
+                    <th colspan="2">Price</th>
+                </tr>
+                <tr>
+                    <th>Old</th>
+                    <th>New</th>
+                </tr>
+                <tr>
+                    <td>Product 1</td>
+                    <td>$10.00</td>
+                    <td>$12.00</td>
+                </tr>
+                <tr>
+                    <td>Product 2</td>
+                    <td>$15.00</td>
+                    <td>$18.00</td>
+                </tr>
+            </table>
+
+            <!-- Table attributes -->
+            <table border="1" cellspacing="10" cellpadding="5" width="80%" height="200" align="center" bgcolor="#f2f2f2">
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Product 1</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Product 2</td>
+                    <td>$15.00</td>
+                </tr>
+            </table>
+
+            <!-- Final table with capton and summary-->
+             <table>
+            <caption>Monthly Sales</caption>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Sales</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>January</td>
+                    <td>$10,000</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$12,000</td>
+                </tr>
+                <tr>
+                    <td>March</td>
+                    <td>$15,000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>$37,000</td>
+                </tr>
+            </tfoot>
+            <summary>This table shows the monthly sales figures for the first quarter of the year.</summary>
+        </table>
+    </body>
+</html>
